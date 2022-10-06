@@ -7,13 +7,13 @@ import InventorySelection from "../components/InventorySelection.vue"
 const routes=[
     {
         path:"/",
-        name:"HelloWorld",
-        component: HelloWorld,
-    },
-    {
-        path:"/InventorySelection",
         name:"InventorySelection",
         component: InventorySelection
+    },
+    {
+        path:"/HelloWorld",
+        name:"HelloWorld",
+        component: HelloWorld
     }
 ]
 

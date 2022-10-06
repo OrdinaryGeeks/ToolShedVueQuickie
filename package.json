@@ -10,9 +10,14 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@types/sanitize-html": "^2.6.2",
     "core-js": "^3.6.5",
+    "sanitize-html": "^2.7.2",
     "vue": "^3.0.0",
-    "vue-class-component": "^8.0.0-0"
+    "vue-class-component": "^8.0.0-0",
+    "vue-router": "^4.1.5",
+    "vue-safe-html": "^2.1.0",
+    "vue-sanitize": "^0.2.2"
   },
   "devDependencies": {
     "@types/chai": "^4.2.11",
